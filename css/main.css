@@ -1,8 +1,72 @@
 html {
   box-sizing: border-box;
-
+  font-family: 'Open Sans', sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color:
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+main {
+  font-size: .875rem;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-style: oblique;
+}
+
+.btn {
+  display: inline-block;
+  border-style: solid;
+  color: #f2f2f2;
+  background-color: #333;
+  border-color: #333;
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+  border-width: 3px;
+  border-radius: 8px;
+}
+
+img {
+  width: 100px;
+  text-align: center;
+}
+
+div {
+  border-style: solid;
+  border-left: black;
+  border-bottom: none;
+  border-top: none;
+  float: left;
+  width: 25%;
+}
+
+.quest {
+  background-color:#e2e2e2;
+}
+
+.dino {
+  background-color: #ccc;
+}
+
+.black {
+  background-color: #aaa;
+}
+
+.light {
+  background-color: #999;
 }
